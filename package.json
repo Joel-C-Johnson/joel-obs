@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "styleguide": "styleguidist server",
-    "build": "vite build",
+    "build": "styleguidist build",
     "prepublishOnly": "rm -rf ./dist && babel ./src --out-dir ./dist -s inline",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

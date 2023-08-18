@@ -7,8 +7,7 @@ UI for editing each section of singular OBS story
 
 ```jsx
 
-// import MdToJsonExample from './examples/MdToJsonExample'
-import   from '../../components/Editor/EditorPanel'
+import EditorPanel  from '../../components/Editor/EditorPanel'
 import mdToJson  from '../../utils/mdToJson'
 import useStory  from '../../hooks/useStory'
 import { useCallback, useEffect } from 'react'
